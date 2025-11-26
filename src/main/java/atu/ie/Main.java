@@ -7,7 +7,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        PersonClass person = new PersonClass();
+        PersonClass person = new PersonClass( "José", "Galway" ,"1234");
+        System.out.println(person);
 
     }
 
