@@ -8,6 +8,7 @@ public class CustemerClass extends PersonClass {
 
     //Default Constructor
     public CustemerClass() {
+        super();
         this.customerNumber = 0;
         this.mailingList = false;
     }
