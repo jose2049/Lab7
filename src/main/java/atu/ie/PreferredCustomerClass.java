@@ -1,5 +1,7 @@
 package atu.ie;
 
+import java.util.Objects;
+
 /*Creating a class PreferredCustomerClass that extends CustomerClass
 loyaltyPoints represent the total points earned
 discountLevel represents the discount as a fraction

@@ -1,5 +1,7 @@
 package atu.ie;
 
+import java.util.Objects;
+
 public class CustomerClass extends PersonClass {
     private int customerNumber;
     private boolean mailingList;
