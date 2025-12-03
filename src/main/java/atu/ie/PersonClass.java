@@ -17,13 +17,14 @@ public class PersonClass {
         this.address = "";
         this.phoneNumber = "";
     }
-
+    //Parameterized constructor
     public PersonClass(String name, String address, String phoneNumber) {
         this.name = name;
         this.address = address;
         this.phoneNumber = phoneNumber;
     }
 
+    //Setting setters and getters
     public String getName() {
         return name;
     }
@@ -48,6 +49,7 @@ public class PersonClass {
         this.phoneNumber = phoneNumber;
     }
 
+    //Returning a readable representation for name, address, adn phone number
     @Override
     public String toString() {
         return "PersonClass{" +
