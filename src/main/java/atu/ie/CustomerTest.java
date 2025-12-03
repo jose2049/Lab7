@@ -1,4 +1,7 @@
 package atu.ie;
+
+import java.util.Objects;
+
 //I'm constructing Customer objects in 2 different ways
 //1 all values at once via the constructor
 //2 Step by step via setters
